@@ -1,7 +1,6 @@
 SELECT
     p.nome_produto,
     p.preco_atual,
-    -- Formatando a média da concorrência para 2 casas decimais
     ROUND(AVG(pc.preco_concorrente)::numeric, 2) AS preco_medio_concorrencia,
     ROUND(
         (
