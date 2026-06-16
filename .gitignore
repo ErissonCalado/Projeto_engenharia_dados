@@ -23,3 +23,9 @@ htmlcov/
 # IDE settings
 .vscode/
 .idea/
+
+# dbt
+**/target/
+**/dbt_packages/
+**/logs/
+**/profiles.yml
